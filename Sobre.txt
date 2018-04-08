@@ -1,0 +1,31 @@
+Problema atacado: 
+* Otimização no uso dos meios de transporte públicos
+* Minimização de tempo de espera nos deslocamentos urbanos
+* Redução de custos de deslocamento
+* Melhor aproveitamento dos modais disponíveis através de sua integração
+
+Ideia central:
+* Criar um aplicativo que gerencie a integração dos modais hoje e futuramente disponíveis na região metropolitana de Campinas, visando um serviço de melhor custo (tempo e financeiro) priorizando as necessidades do usuário final.
+
+Escopo:
+* Sistemas de transporte e mobilidade da região metropolitana de Campinas, escalável aos grandes centros.
+
+Desenvolvimento:
+* Fazendo uso das bases de dados nos disponibilizada selecionamos e conhecemos os dados para começar a pensar nas soluções, sua complexidade e na construção de uma solução eficaz e factível.
+* Ao identificar o funcionamento da malha viária pública, preocupamos em propor algo que estivesse na intersecção da melhoria do serviço para o provedor, os órgãos responsáveis por sua regulamentação e para o usuário, se preocupando com soluções atuais e abrangentes, que não excluíssem usuários resistentes a mudanças e em impedimentos legislativos.
+* Tomamos por desafio criar um aplicativo de tomada de decisões que otimizasse custos, tempo e melhor uso dos modais disponíveis, atendendo as necessidades do usuário comum, na diversificação e descentralização do sistema, atacando indiretamente superlotação e futuramente etapas de planejamento.
+* Não encontrando aplicação que já contemplasse a nossa ideia, buscamos fazer uso das soluções já existentes para auxílio a nossa aplicação. Escolhemos utilizar como ferramentas a API Maps, da Google, que nos fornece dados de tráfego, linhas de ônibus, percursos e estimativas de tempo e a API do Uber inicialmente, na tentativa de fazer uso da malha urbana e dos serviços da Uber para criar uma aplicação funcional que criasse rotas mescladas, que contemplassem a maior utilização dos ônibus sem extrapolar a janela de tempo dos usuários.
+
+Tecnologia
+Inicialmente foi planejado o desenvolvimento de um dispositivo mobile, utilizando o AndroidStudio, com o intuito de realizar a interface de comunicação entre o usuários e as apis utilizadas. Em seguida, de modo a selecionar as opções que melhor  atendem a necessidade do usuário e facilitem a expansão e manutenção do sistema, assim como a inclusão de novos modais.
+
+Problemas encontrados
+* Desenvolvimento da heurística, já que o problema se demonstrou de alta complexidade computacional.
+* Conhecimento específico da utilização e manipulação das APIs.
+* Conhecimentos específico sobre as especificidades do problema e da malha urbana, sua articulação e seu funcionamento na região de Campinas.
+
+Solução
+* Modelamos o problema na intenção de propor uma solução de impacto que faça o melhor uso possível dos modais disponíveis
+
+Próximos passos 
+* Continuar no estudo e elaboração da solução, investigando tecnologias e APIS que melhor atenderiam nosso problema, colocando nosso aplicativo em produção.
